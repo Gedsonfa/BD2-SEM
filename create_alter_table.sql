@@ -8,6 +8,10 @@ create table municipio(nr_sequencia integer, dt_criacao date, dt_alteracao date,
 
 create table pessoa_fisica_endereco(nr_sequencia integer, dt_criacao date, dt_alteracao date, nr_seq_pessoa_fisica integer, nr_seq_uf integer, nr_seq_municipio integer, ds_logradouro varchar(255), nr_endereco integer, ds_bairro varchar2(255), nr_cpf number(8));
 
+SELECT * FROM  pessoa_fisica 
+
+INSERT INTO pessoa_fisica (NR_SEQUENCIA,NM_PESSOA_FISICA, qt_altura)values(1,'Gedson', 1.59)
+
 alter table pessoa_fisica add (teste number(10));
 alter table pessoa_fisica modify(teste number(5,3));
 alter table pessoa_fisica rename column teste to teste_novo;
