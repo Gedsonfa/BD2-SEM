@@ -1,6 +1,3 @@
-74% de armazenamento usado … 
-Se você atingir o limite, não será possível criar, editar ou fazer upload de arquivos. Aproveite 100 GB de armazenamento por R$ 7,99 R$ 1,99 por mês, durante 2 meses.
-
 create table pessoa_fisica(nr_sequencia integer, dt_criacao date, dt_alteracao date, nm_pessoa_fisica varchar2(255),
 dt_nascimento date, nr_cpf varchar2(11), qt_altura number(3,2))
 

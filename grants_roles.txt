@@ -1,4 +1,3 @@
-
 GRANT admin identified by "curso@2021";
 GRANT DBA TO admin WITH ADMIN OPTION;
 
